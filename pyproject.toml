@@ -1,0 +1,17 @@
+[project]
+name = "Anime_Kevin_Bacon"
+version = "0.1.0"
+description = "Analyzing the Japanese Voice Acting community using network science concepts"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "kagglehub>=0.3.13",
+    "networkx",
+    "pandas>=2.3.3",
+    "numpy==1.26.4",
+    "scipy==1.11.4"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
